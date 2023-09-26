@@ -4,7 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TourismYatri</title> 
-
+     <!-- Link Swiper's CSS -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
     <!-- drop page css link -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -34,7 +38,7 @@
         </div>
 
         <div class="leftsection">
-            <div class="explore">#Expolre</div>
+            <div class="explore">#Explore</div>
             <div class="India">INDIA</div>  
             <div class="WtY">With Tuorism Yatri</div>
         </div>
@@ -53,18 +57,18 @@
 
 
   <!-- video and navbar icon HTML________________________________________________________ -->
-        <div class="banner">
-            <header>
-                <div class="px-3  border-bottom">
-                  <div class="container background-colorNavbar">
-                    <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-                      <a href="/" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
+        <div class="banner" id="Home">
+          
+               
+                  
+                    <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start  background-colorNavbar">
+                      <a href="/" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none ">
                         <img src="tour.png" height="70px">
                       </a>
             
                       <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
                         <li>
-                            <a href="#" class="nav-link text-white">
+                            <a href="#Home" class="nav-link text-white">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-house-door d-block mx-auto mb-1" viewBox="0 0 16 16">
                                     <path d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146ZM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4H2.5Z"/>
                                   </svg>
@@ -89,7 +93,7 @@
                           </a>
                         </li>
                         <li>
-                          <a href="#" class="nav-link text-white">
+                          <a href="#destination" class="nav-link text-white">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-airplane-engines d-block mx-auto mb-1" viewBox="0 0 16 16">
                                 <path d="M8 0c-.787 0-1.292.592-1.572 1.151A4.347 4.347 0 0 0 6 3v3.691l-2 1V7.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.191l-1.17.585A1.5 1.5 0 0 0 0 10.618V12a.5.5 0 0 0 .582.493l1.631-.272.313.937a.5.5 0 0 0 .948 0l.405-1.214 2.21-.369.375 2.253-1.318 1.318A.5.5 0 0 0 5.5 16h5a.5.5 0 0 0 .354-.854l-1.318-1.318.375-2.253 2.21.369.405 1.214a.5.5 0 0 0 .948 0l.313-.937 1.63.272A.5.5 0 0 0 16 12v-1.382a1.5 1.5 0 0 0-.83-1.342L14 8.691V7.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v.191l-2-1V3c0-.568-.14-1.271-.428-1.849C9.292.591 8.787 0 8 0ZM7 3c0-.432.11-.979.322-1.401C7.542 1.159 7.787 1 8 1c.213 0 .458.158.678.599C8.889 2.02 9 2.569 9 3v4a.5.5 0 0 0 .276.447l5.448 2.724a.5.5 0 0 1 .276.447v.792l-5.418-.903a.5.5 0 0 0-.575.41l-.5 3a.5.5 0 0 0 .14.437l.646.646H6.707l.647-.646a.5.5 0 0 0 .14-.436l-.5-3a.5.5 0 0 0-.576-.411L1 11.41v-.792a.5.5 0 0 1 .276-.447l5.448-2.724A.5.5 0 0 0 7 7V3Z"/>
                               </svg>
@@ -97,7 +101,7 @@
                           </a>
                         </li>
                         <li>
-                          <a href="#" class="nav-link text-white">
+                          <a href="#Contect" class="nav-link text-white">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-person-rolodex d-block mx-auto mb-1" viewBox="0 0 16 16">
                                 <path d="M8 9.05a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z"/>
                                 <path d="M1 1a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h.5a.5.5 0 0 0 .5-.5.5.5 0 0 1 1 0 .5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5.5.5 0 0 1 1 0 .5.5 0 0 0 .5.5h.5a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1H6.707L6 1.293A1 1 0 0 0 5.293 1H1Zm0 1h4.293L6 2.707A1 1 0 0 0 6.707 3H15v10h-.085a1.5 1.5 0 0 0-2.4-.63C11.885 11.223 10.554 10 8 10c-2.555 0-3.886 1.224-4.514 2.37a1.5 1.5 0 0 0-2.4.63H1V2Z"/>
@@ -107,10 +111,10 @@
                         </li>
                       </ul>
                     </div>
-                  </div>
-                </div>
+                 
+              
                 
-              </header>
+      
 
 
               <!-- video -->
@@ -129,7 +133,7 @@
         hellow
 
     </div> -->
-    <div class="search-container">
+    <div class="search-container" id="destination">
       <div class="search">
       </div>
       <div class="bg-text">
@@ -152,36 +156,55 @@
 
 
  <!-- Explore India HTML____________________________________________________________ -->
-  <div class="ExploreIndia" id="exploreIndia">
-          <h1>Explore India</h1>
-      <div class="cover-flow">
-          <div class="cover">
-              <img src="1.jpg" alt="Image 1">
-          </div>
-          <div class="cover">
-              <img src="2.jpg" alt="Image 2">
-          </div>
-          <div class="cover">
-              <img src="3.jpg" alt="Image 3">
-          </div>
-          <div class="cover">
-              <img src="4.jpg" alt="Image 3">
-          </div>
-          <div class="cover">
-              <img src="5.jpg" alt="Image 3">
-          </div>
-          <div class="cover">
-              <img src="6.jpg" alt="Image 3">
-          </div>
-          <div class="cover">
-              <img src="7.jpg" alt="Image 3">
-          </div>
-          <div class="cover">
-              <img src="8.jpg" alt="Image 3">
-          </div>
-          <!-- Add more images as needed -->
-      </div>
+ <div class="section" id="exploreIndia">
+  <h1>EXPLORE INDIA</h1>
+<!-- Swiper -->
+<div class="swiper mySwiper">
+<div class="swiper-wrapper">
+  <div class="swiper-slide">
+    <img src="1.jpg" alt="">
   </div>
+  <div class="swiper-slide">
+    <img src="2.jpg" alt="">
+  </div>
+  <div class="swiper-slide">
+    <img src="3.jpg" alt="">
+  </div>
+  <div class="swiper-slide">
+    <img src="4.jpg" alt="">
+  </div>
+  <div class="swiper-slide">
+    <img src="5.jpg" alt="">
+  </div>
+  <div class="swiper-slide">
+    <img src="6.jpg" alt="">
+  </div>
+  <div class="swiper-slide">
+    <img src="7.jpg" alt="">
+  </div>
+  <div class="swiper-slide">
+    <img src="8.jpg" alt="">
+  </div>
+  <div class="swiper-slide">
+    <img src="1.jpg" alt="">
+  </div>
+  <div class="swiper-slide">
+    <img src="2.jpg" alt="">
+  </div>
+  <div class="swiper-slide">
+    <img src="3.jpg" alt="">
+  </div>
+  <div class="swiper-slide">
+    <img src="4.jpg" alt="">
+  </div>
+  <div class="swiper-slide">
+    <img src="5.jpg" alt="">
+  </div>
+</div>
+</div>
+
+</div>
+
 
 
 
@@ -278,8 +301,7 @@
 
 
 <!-- footer part -->
-<footer class="footer-distributed">
-
+ <footer class="footer-distributed" id="Contect">
   <div class="footer-left">
       <h3>Tourism<span>Yatri</span></h3>
 
@@ -330,7 +352,7 @@
           <a href="#"><i class="fa fa-youtube"></i></a>
       </div>
   </div>
-</footer>
+</footer> 
 
 
 
@@ -340,7 +362,24 @@
 
 
        
-
+        <!-- --------ankur js------- -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+        <script>
+          var swiper = new Swiper(".mySwiper", {
+      effect: "coverflow",
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: "auto",
+      coverflowEffect: {
+        rotate: 15,
+        stretch: 0,
+        depth: 300,
+        modifier: 1,
+        slideShadows: true,
+      },
+      loop: true,
+    });
+        </script>
 
         <!-- land page javascript -->
 
